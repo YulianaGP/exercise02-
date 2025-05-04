@@ -1,1 +1,19 @@
-
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-color: lightgray;
+}
+.item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: steelblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
